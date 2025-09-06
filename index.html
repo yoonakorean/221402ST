@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>14-1 句子聽打挑戰</title>
+<title>14-2 句子聽打挑戰</title>
 <style>
 body { font-family: sans-serif; max-width: 600px; margin: auto; text-align: center; padding: 30px 15px; }
 #logo, #logo-game { width: 150px; max-width: 80%; margin-bottom: 10px; display: block; margin-left: auto; margin-right: auto; }
@@ -56,16 +56,16 @@ if (password !== "1231") { alert("密碼錯誤，無法進入！"); window.locat
 
 <script>
 const questions = [
-  { audio: "22140101S.mp3", answer: "친구랑 말다툼하고 한 달 넘게 연락 안 한 적이 있는데 지금은 잘 지내요." },
-  { audio: "22140102S.mp3", answer: "좋아하는 사람한테 직접 고백한 적은 한 번도 없어요." },
-  { audio: "22140103S.mp3", answer: "아무 계획 없이 그냥 멀리 확 떠나고 싶은 적 없었어?" },
-  { audio: "22140104S.mp3", answer: "버스에서 졸다가 내릴 때 지갑을 잃어버린 적이 있어요." },
-  { audio: "22140105S.mp3", answer: "맛집 줄 서서 한 시간 넘게 기다린 적이 있는데 솔직히 별로였어요." },
-  { audio: "22140106S.mp3", answer: "그 얘기를 내가 한 번도 들어본 적이 없는데 어떻게 알아요?" },
-  { audio: "22140107S.mp3", answer: "출근 시간에 버스 놓쳐 본 적 있는 사람 있나요?" },
-  { audio: "22140108S.mp3", answer: "살면서 한 번도 술 마셔 본 적이 없는 것 같아요." },
-  { audio: "22140109S.mp3", answer: "다이어트를 하려고 3일 동안 굶어본 적이 있어요." },
-  { audio: "22140110S.mp3", answer: "요즘 유행하는 카피바라 카페에 가 본 적이 있나요?" }
+  { audio: "22140201S.mp3", answer: "감기에 걸렸을 때는 이 약을 꼭 드세요." },
+  { audio: "22140202S.mp3", answer: "처음 한국에 왔을 때는 모든 게 다 신기했어요." },
+  { audio: "22140203S.mp3", answer: "한국은 첫 월급을 받았을 때 부모님께 내복을 선물하는 문화가 있어요." },
+  { audio: "22140204S.mp3", answer: "한국어 처음 배웠을 때 사용했던 노트와 책이에요." },
+  { audio: "22140205S.mp3", answer: "초등학생이었을 때는 여름 방학이 가장 기다려졌어." },
+  { audio: "22140206S.mp3", answer: "학생이었을 때는 군인이 아저씨 같았는데 지금은 다 동생이에요." },
+  { audio: "22140207S.mp3", answer: "부모님이 제 나이였을 때 저를 낳은 것이 믿기지 않아요." },
+  { audio: "22140208S.mp3", answer: "친구 결혼식 갔을 때 아주 감동이었어." },
+  { audio: "22140209S.mp3", answer: "미안해요.저한테 전화했을 때 자고 있었어요." },
+  { audio: "22140210S.mp3", answer: "이 가방 어렸을 때 제가 사용한 브랜드의 가방인 것 같아요!" }
 ];
 
 const modeSelectDiv = document.getElementById("mode-select");
@@ -100,8 +100,8 @@ let currentMode = null;
 let startTime = null; // 記錄挑戰開始時間
 
 // 顯示標題與送表單標題
-const displayTitle = "14-1 句子聽打挑戰";
-const fullTitle = "22-14-1 句子聽打挑戰";
+const displayTitle = "14-2 句子聽打挑戰";
+const fullTitle = "22-14-2 句子聽打挑戰";
 
 function shuffle(array){for(let i=array.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[array[i],array[j]]=[array[j],array[i]];}return array;}
 
